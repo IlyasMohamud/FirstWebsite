@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.logo {
+    width: 50px; /* Adjust based on your logo's size */
+    margin-right: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.navigation {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.profile-picture {
+    width: 150px; /* Adjust based on your preference */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.introduction p {
+    text-align: center;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    border-top: 2px solid #dcdcdc;
+    padding-top: 10px;
+}
+
+
+.earth-button{
+    background-color: rgb(130,224,170);
+
+    color: white;
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin: 2px;
+    vertical-align: top;
+}
+
+.earth-button:hover{
+
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.6);
+
+
+}
+.earth-button:active{
+    opacity: 0.3;
+}
+
+.page-title{
+    font-family: Arial,serif;
+    background-color: rgb(130,224,170);
+    font-size: 50px;
+    color: white;
+    margin: 0;
+
+
+
+
+
+
+}
