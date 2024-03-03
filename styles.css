@@ -19,8 +19,13 @@ h1 {
 }
 
 .navigation {
+
     text-align: center;
     margin: 20px 0;
+    display: flex;
+    align-items:  normal; /* This aligns items vertically center */
+    justify-content: start; /* This aligns items to the start of the navigation */
+    
 }
 
 
@@ -48,7 +53,8 @@ footer {
 
 
 .earth-button{
-    background-color: rgb(130,224,170);
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+
 
     color: white;
     border: none;
